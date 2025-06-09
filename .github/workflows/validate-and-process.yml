@@ -3,7 +3,7 @@ name: Validate and Process EvalAI Challenge
 on:
   push:
     branches:
-      - challenge
+      - Challenge
 
 permissions:
   contents: read
