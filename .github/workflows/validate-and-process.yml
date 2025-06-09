@@ -108,7 +108,7 @@ jobs:
         env:
           IS_VALIDATION: 'True'
           GITHUB_CONTEXT: ${{ toJson(github) }}
-          GITHUB_AUTH_TOKEN: ${{ secrets.ZINONGSAN }}
+          GITHUB_AUTH_TOKEN: ${{ secrets.ZINONG }}
 
       - name: Create or update challenge
         run: |
